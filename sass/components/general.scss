@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.2% !important;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Playfair Display", serif !important;
+  overflow-x: hidden;
+}
+
+ul {
+  padding-left: 0rem !important;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.font-semi-title {
+  font-size: 1.8rem;
+}
+
+.button {
+  padding: 1rem 3rem;
+}
+
+ion-icon {
+  font-size: 2rem;
+}
+
+.padding-bottom {
+  padding-bottom: 2rem;
+}
