@@ -33,102 +33,12 @@ nav {
 .home {
   margin-top: 0rem; }
 
-.paragraph-none {
-  display: none; }
+.home-scroll {
+  overflow-y: scroll;
+  max-height: 100rem; }
 
-.section-1-2 {
-  margin-top: 2rem !important; }
-
-.section-2 {
-  margin-top: 4rem;
-  padding: 2rem 0rem; }
-  .section-2__title {
-    border-top: 2px solid #d1cdcd;
-    border-bottom: 2px solid #d1cdcd; }
-  .section-2 .arrow-size {
-    height: 2.6rem; }
-  .section-2 .home-card-ipad {
-    display: none; }
-  .section-2 .home-card-desktop {
-    display: none; }
-
-.section-3 {
-  margin-top: 4rem;
-  padding: 2rem 0rem; }
-
-.section-2__title {
-  justify-content: center; }
-
-.section-4 {
-  margin-top: 16rem; }
-
-.home-last-section {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr); }
-
-footer {
-  margin-top: 14rem; }
-
-.news {
-  border: none !important;
-  padding: 1rem !important;
-  background-color: transparent !important;
-  border-bottom: 2px solid #191919 !important;
-  border-radius: 0 !important; }
-
-@media (min-width: 425.98px) {
-  .fs-1 {
-    font-size: 2.8rem !important; }
-  .home {
-    margin-top: 2rem; }
-  .home-last-section {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media (min-width: 575.98px) {
-  .home-card-ipad {
-    display: block !important; }
-  .fs-2 {
-    font-size: 2.4rem; }
-  .home-last-section {
-    grid-template-columns: repeat(3, 1fr); } }
-
-@media (min-width: 767.98px) {
-  .section-1-2 {
-    margin-top: 0rem !important; }
-  .home-card-desktop {
-    display: block !important; }
-  .paragraph-none {
-    display: block; }
-  .section-2__title {
-    justify-content: start !important; } }
-
-@media (min-width: 991.98px) {
-  .fs-1 {
-    font-size: 3.8rem !important; }
-  .fs-2 {
-    font-size: 2.6rem !important; }
-  .fs-3 {
-    font-size: 2.4rem !important; } }
-
-@media (min-width: 1199.98px) {
-  .fs-1 {
-    font-size: 3.8rem !important; }
-  .fs-2 {
-    font-size: 2.6rem !important; }
-  .fs-3 {
-    font-size: 2.4rem !important; }
-  .home-last-section {
-    grid-template-columns: repeat(4, 1fr); } }
-
-@media (min-width: 1399.98px) {
-  .fs-1 {
-    font-size: 4.4rem !important; }
-  .fs-2 {
-    font-size: 3rem !important; }
-  .fs-3 {
-    font-size: 2.8rem !important; }
-  .home-last-section {
-    grid-template-columns: repeat(5, 1fr); } }
+.img-height-card {
+  height: 18rem; }
 
 * {
   padding: 0;
@@ -166,3 +76,10 @@ ion-icon {
 
 .padding-bottom {
   padding-bottom: 2rem; }
+
+.news {
+  border-radius: 0 !important;
+  padding: 0.8rem !important;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important; }

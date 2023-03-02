@@ -8287,27 +8287,27 @@ fieldset:disabled .btn {
 }
 
 .fs-1 {
-  font-size: 2.2rem;
+  font-size: 4rem;
 }
 
 .fs-2 {
-  font-size: 2rem;
+  font-size: 3.4rem;
 }
 
 .fs-3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .fs-4 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1.6rem;
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.4rem;
 }
 
 .fst-italic {
@@ -8416,7 +8416,7 @@ fieldset:disabled .btn {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #555 !important;
 }
 
 .text-success {
